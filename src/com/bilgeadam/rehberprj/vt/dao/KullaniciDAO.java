@@ -1,12 +1,9 @@
 package com.bilgeadam.rehberprj.vt.dao;
 
-import com.bilgeadam.rehberprj.vt.VTBaglanti;
+import com.bilgeadam.rehberprj.vt.vt.VTBaglanti;
 import com.bilgeadam.rehberprj.vt.dto.KullaniciDTO;
 
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
+import java.sql.*;
 
 public class KullaniciDAO {
 
