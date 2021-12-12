@@ -10,8 +10,8 @@ public class KullaniciDAOTest {
     public static void main(String[] args) {
         try{
             KullaniciDTO kullanici = new KullaniciDTO();
-            kullanici.setKullaniciAdi("Admin");
-            kullanici.setSifre("admin1234");
+            kullanici.setKullaniciAdi("admin");
+            kullanici.setSifre("admin");
 
             boolean sonuc = KullaniciDAO.giriseYetkilimi(kullanici);
 

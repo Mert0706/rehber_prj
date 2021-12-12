@@ -9,7 +9,7 @@ public class KullaniciDAO {
 
     public static boolean giriseYetkilimi(KullaniciDTO kullanici) throws SQLException, ClassNotFoundException {
 
-        String vtsifre = "";
+        String vtsifre = null;
 
         Connection conn = VTBaglanti.baglantiGetir();
 
