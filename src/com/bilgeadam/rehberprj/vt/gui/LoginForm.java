@@ -29,7 +29,7 @@ public class LoginForm extends JFrame {
 
     //Formun büyüklük küçüklüğünü ayarlayabilirsiniz (size ayarlama)
         JPanel1.setBackground(new Color(32,33,36));
-       setUndecorated(true);
+      // setUndecorated(true); // Border Kaldırıyor.
         kullaniciadiLb.setForeground(Color.white);
         girisyazisiLB.setForeground(Color.white);
         sifreLB.setForeground(Color.white);

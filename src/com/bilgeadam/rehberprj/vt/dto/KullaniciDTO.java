@@ -7,6 +7,10 @@ public class KullaniciDTO {
     private String sifre;
     private int aktif;
 
+    public KullaniciDTO(){
+        aktif = 1;
+    }
+
     public int getNo() {
         return no;
     }

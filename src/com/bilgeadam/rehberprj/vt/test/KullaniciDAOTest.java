@@ -12,6 +12,7 @@ public class KullaniciDAOTest {
             KullaniciDTO kullanici = new KullaniciDTO();
             kullanici.setKullaniciAdi("admin");
             kullanici.setSifre("admin");
+            //kullanici.setAktif(0);
 
             boolean sonuc = KullaniciDAO.giriseYetkilimi(kullanici);
 
