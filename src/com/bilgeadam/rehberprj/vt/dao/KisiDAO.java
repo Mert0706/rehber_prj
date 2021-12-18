@@ -14,7 +14,7 @@ import java.sql.SQLException;
 
 public class KisiDAO {
 
-    public static boolean giriseYetkilimi(KisiDTO kisi) throws SQLException, ClassNotFoundException {
+    public static boolean ekle(KisiDTO kisi) throws SQLException, ClassNotFoundException {
 
 
         Connection conn = VTBaglanti.baglantiGetir();
