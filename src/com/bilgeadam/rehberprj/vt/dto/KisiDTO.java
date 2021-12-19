@@ -4,6 +4,12 @@ import java.util.Date;
 
 public class KisiDTO {
 
+    private String ad;
+    private String soyad;
+    private double maas;
+    private Date dogtar;
+    private String mobil_telefon;
+
     private int no;
 
     public int getNo() {
@@ -54,10 +60,5 @@ public class KisiDTO {
         this.mobil_telefon = mobil_telefon;
     }
 
-    private String ad;
-    private String soyad;
-    private double maas;
-    private Date dogtar;
-    private String mobil_telefon;
 
 }

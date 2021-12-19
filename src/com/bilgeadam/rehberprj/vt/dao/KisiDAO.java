@@ -19,7 +19,7 @@ public class KisiDAO {
 
         Connection conn = VTBaglanti.baglantiGetir();
 
-        String sorgu = "insert into kisi(no, ad, soyad, maas, dogtar, mobil_tel) values(?,?,?,?,?,?)";
+        String sorgu = "insert into kisi(no, ad, soyad, maas, dogtar, mobil_telefon) values(?,?,?,?,?,?)";
 
         PreparedStatement ps = conn.prepareStatement(sorgu);
         ps.setInt(1, kisi.getNo());
