@@ -60,5 +60,16 @@ public class KisiDTO {
         this.mobil_telefon = mobil_telefon;
     }
 
+    @Override
+    public String toString() {
+        return "KisiDTO{" +
+                ", no=" + no + '\''+
+                "ad='" + ad + '\'' +
+                ", soyad='" + soyad + '\'' +
+                ", maas=" + maas +
+                ", dogtar=" + dogtar +
+                ", mobil_telefon='" + mobil_telefon + '\'' +
 
+                '}';
+    }
 }

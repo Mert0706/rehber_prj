@@ -10,6 +10,7 @@ public class MenuForm extends JFrame{
     private JButton ekleButton;
     private JPanel MenuPanelDis;
     private JLabel MenuLabelText;
+    private JButton SİLButton;
 
     public MenuForm(){
         add(MenuPanel);
